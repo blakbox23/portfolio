@@ -10516,8 +10516,6 @@ font-size: 15px;
   box-sizing: border-box;
 }
 
-@include media-breakpoint-up(sm) {
-  .containerr {
-    display: block;
-  }
+ul{
+  list-style-type: none;
 }
