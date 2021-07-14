@@ -41,6 +41,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 .nav-links {
@@ -53,15 +55,24 @@ nav {
 }
 
 .header {
-  border: 1px solid black;
   height: calc(100vh - 70px);
+}
+
+.head-union {
+  justify-content: space-between;
+  margin-top: 80px;
 }
 
 .header-text {
   /* border: 1px solid black; */
-  margin: 40px;
-  margin-top: 80px;
+  margin: 20px;
+  width: 100%;
 }
+
+.header-img {
+  display: none;
+}
+
 
 .header-footer {
   position: absolute;
@@ -87,7 +98,6 @@ nav {
 
 
 .portfolio {
-  border: 1px solid black;
   padding: 20px;
 }
 
@@ -257,9 +267,24 @@ textarea {
   h1 {
     line-height: rem;
   }
+  /* .header-text {
+    width: 50%;
+  } */
   .header-text {
+    /* border: 1px solid black; */
+    margin: 40px;
+    margin-top: 80px;
     width: 50%;
   }
+  .header-img {
+    width: 50%;
+    display: block;
+  }
+  .header-img img {
+    width: 100%;
+    height: 80%;
+  }
+
   .header-footer {
     display: flex;
 
