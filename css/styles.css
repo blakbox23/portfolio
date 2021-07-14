@@ -25,33 +25,53 @@
 
 body {
   background-color: #f5f4ea;
-  font-family: 'Lato', sans-serif;}
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
 
 h1 {
   line-height: 1.5rem;
+
 }
 
 h2 {
   font-size: 1.1rem;
+
 }
 
 nav {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo {
+  width: 3.5rem;
+  height: 100%;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
+  color: #274355;
+ 
 }
 
 .nav-links li {
-  margin: 5px;
+  margin: 6px;
+
+}
+
+.nav-links a {
+  text-decoration: none;
 }
 
 .header {
@@ -67,12 +87,12 @@ nav {
   /* border: 1px solid black; */
   margin: 20px;
   width: 100%;
+  font-size: 1.2rem;
 }
 
 .header-img {
   display: none;
 }
-
 
 .header-footer {
   position: absolute;
@@ -81,6 +101,10 @@ nav {
   margin-bottom: 20px;
 }
 
+.header-footer-txt p {
+  color: #6BA244;
+
+}
 .header-footer-icons {
   display: flex;
   list-style-type: none;
@@ -89,15 +113,13 @@ nav {
 .header-footer-icons li{
   width: 22px;
   margin-right: 15px;
-
 }
 
 .header-footer-icons li img {
   width: 100%;
 }
 
-
-.portfolio {
+#portfolio {
   padding: 20px;
 }
 
@@ -117,15 +139,16 @@ nav {
 #pot1{ background:
   linear-gradient(to bottom, rgba(44,77,110, 0.3), rgba(107,162,68, 0.6)), 
   url('https://source.unsplash.com/2xaF4TbjXT0');
+  background-position: top;
+background-size: cover;
 }
 
 #pot2 {
-  background:
-linear-gradient(to bottom, rgba(44,77,110, 0.3), rgba(107,162,68, 0.6)), 
+background:
+linear-gradient(to bottom, rgba(44, 77, 110, 0.3), rgba(107,162,68, 0.6)), 
 url('/img/pete\'s\ kitchen.PNG');
 background-position: center;
 background-size: cover;
-
 
 }
 
@@ -136,11 +159,18 @@ background-size: cover;
 background-size: cover;
 }
 
+#pot4 {
+  background:linear-gradient(to bottom, rgba(44,77,110, 0.3), rgba(107,162,68, 0.6)), 
+  url('https://source.unsplash.com/f-PH16nZHKI');
+  background-position: center;
+background-size: cover;
+}
+
 .portfolio-item h3 {
   margin: 0;
   padding: 5px 0 5px; 
+  font-size: 1.4rem;
   margin-bottom: 10px;
- 
 }
 
 .proj-tech {
@@ -152,7 +182,7 @@ background-size: cover;
 
 .proj-tech p {
   background-color: rgb(85, 77, 77);
-  font-size: 0.69rem;
+  font-size: 0.87rem;
   padding: 3px;
   font-family:sans-serif;
   margin: 2px;
@@ -163,28 +193,30 @@ background-size: cover;
   bottom: 20px;
   left: 10px;
   font-size: 0.8rem;
-  margin: auto;
 }
 
 .proj-btns a {
-  padding: 5px;
+  padding: 7px 10px;
   text-decoration: none;
   color: #fff;
+  margin-left: 15px;
+  font-size: 1rem;
 }
 .live-btn {
-  background-color: #6BA244;
+  background-color: rgba(107,162,68, 0.8);
 
 }
 
 .code-btn {
-  background-color: #274355;
+  background-color: rgba(44,77,110, 0.8);
 
 }
 
-.about {
+#about {
   display: grid;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 1rem;
 }
 
 .about-btn {
@@ -201,21 +233,22 @@ background-size: cover;
 
 .about-skills p:first-child {
   font-weight: bold;
+  color: #6BA244;
 }
 
-.contact-form {
+#contact-form {
   background-color: #2C4D6E;
   color: #fff;
   margin: auto;
   padding: 2.5rem 10px;
 }
 
-.contact-form h2 {
+#contact-form h2 {
   color: #fff;
   text-align: center;
 }
 
-.contact-form p {
+#contact-form p {
   text-align: center;
 }
 
@@ -239,7 +272,8 @@ input {
 
 #contact-submit {
   width: 94%;
-  height: 2rem;
+  height: 2.5rem;
+  font-size: 1rem;
   background-color:#6BA244;
   color: #fff;
   border: none;
@@ -265,11 +299,17 @@ textarea {
 @media screen and (min-width: 768px) {
  
   h1 {
-    line-height: rem;
+    line-height: 1.5rem;
   }
   /* .header-text {
     width: 50%;
   } */
+
+  .nav-links {
+    width: 30%;
+    justify-content: space-around;
+  }
+
   .header-text {
     /* border: 1px solid black; */
     margin: 40px;
@@ -282,7 +322,7 @@ textarea {
   }
   .header-img img {
     width: 100%;
-    height: 80%;
+    height: 70%;
   }
 
   .header-footer {
@@ -300,7 +340,7 @@ textarea {
     padding: 10px 0 20px 10px;
   }
 
-  .about {
+  #about {
     grid-template-columns: 1fr 1fr;
   }
 

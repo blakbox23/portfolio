@@ -5,17 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <!-- <meta name="description" content="" />
         <meta name="author" content="" /> -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="css/styles.css">
         <title>Peter Mbuthia - Portfolio</title>
     </head>
     <body>
     
      <nav>
-       <div class="logo">logo</div>
+       <div class="logo"><a href="#"><img src="/img/worker.png" alt=""></div></a> 
        <ul class = "nav-links">
-         <li>Portfolio</li>
-         <li>About</li>
-         <li>Contact</li>
+        <a href="#portfolio"><li>Portfolio</li></a> 
+        <a href="#about"><li>About</li></a> 
+        <a href="#contact-form"><li>Contact</li></a> 
        </ul>
      </nav>
 
@@ -46,40 +47,37 @@
          </div>
      </div>
 
-     <div class="portfolio">
+     <div id="portfolio">
        <h2 class="headings">My best works</h2>
        <div class="portfolio-grid">
-         <div class="portfolio-item" id="pot1">
+         <div class="portfolio-item " data-aos="fade-down-right"  id="pot1">
            <h3>Summit website</h3>
            <div class="proj-tech">
              <p>HTML</p>
              <p>Javascript</p>
-             <p>Ruby on Rails</p>
-             <p>HTML</p>
-             <p>Javascript</p>
-             <p>Ruby on Rails</p>
+             <p>CSS</p>
+           
            </div>
            <div class="proj-btns">
             <a href="#" class="code-btn">View code</a>
              <a href="#" class="live-btn">View live</a>
            </div>
          </div>
-         <div class="portfolio-item" id="pot2" >
+         <div class="portfolio-item" id="pot2"  >
           <h3>Pete's Kitchen</h3>
           <div class="proj-tech">
             <p>HTML</p>
+             <p>CSS</p>
             <p>Javascript</p>
-            <p>Ruby on Rails</p>
-            <p>HTML</p>
-            <p>Javascript</p>
-            <p>Ruby on Rails</p>
+          
+           
           </div>
           <div class="proj-btns">
            <a href="#" class="code-btn">View code</a>
             <a href="#" class="live-btn">View live</a>
           </div>
          </div>
-         <div class="portfolio-item" id="pot3" >
+         <div class="portfolio-item" id="pot3" data-aos="fade-down-left"  >
           <h3>Chatflix</h3>
           <div class="proj-tech">
             <p>HTML</p>
@@ -91,13 +89,10 @@
             <a href="#" class="live-btn">View live</a>
           </div>
          </div>
-         <div class="portfolio-item" id="pot4" >
-          <h3>Chatflix</h3>
+         <div class="portfolio-item" id="pot4" data-aos="fade-up-right" >
+          <h3>Twitter Bot</h3>
           <div class="proj-tech">
-            <p>HTML</p>
-            <p>Javascript</p>
-            <p>Ruby on Rails</p>
-            <p>HTML</p>
+            <p>Ruby</p>
          
           </div>
           <div class="proj-btns">
@@ -105,7 +100,7 @@
             <a href="#" class="live-btn">View live</a>
           </div>
          </div>
-         <div class="portfolio-item" id="pot2" >
+         <div class="portfolio-item" id="pot5"  >
           <h3>Chatflix</h3>
           <div class="proj-tech">
             <p>HTML</p>
@@ -118,7 +113,7 @@
             <a href="#" class="live-btn">View live</a>
           </div>
          </div>
-         <div class="portfolio-item" id="pot2" >
+         <div class="portfolio-item" id="pot6" data-aos="fade-up-left" >
           <h3>Chatflix</h3>
           <div class="proj-tech">
             <p>HTML</p>
@@ -135,20 +130,20 @@
          
      </div>
 
-     <div class="about">
-       <div class="about-me ">
-        <p class ="headings">About me</p>
+     <div id="about">
+       <div class="about-me" data-aos="fade-right">
+        <h2 class ="headings">About me</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error rerum repudiandae quos veritatis cumque quas et doloremque impedit repellat a eos eius, voluptates omnis quidem autem quibusdam, est ea consectetur?</p>
        <div> <a href="#" class="about-btn">Get my resume</a></div>
 
        </div>
        <div class="about-skills">
-        <div class="about-skills-item">
+        <div class="about-skills-item " data-aos="fade-left">
           <p>Languages</p>
           <p class="grey">Javascript  HTML  Ruby  Ruby on Rails</p>
           <hr class="grey">
         </div>
-        <div class="about-skills-item">
+        <div class="about-skills-item" data-aos="fade-left">
           <p>Frameworks</p>
           <p class="grey">React.js Node.js Ruby on Rails</p>
           <hr class="grey">
@@ -162,14 +157,14 @@
 
      </div>
 
-     <div class="contact-form">
+     <div id="contact-form">
        <div>
        <h2 class="headings">Interested in collaborating?</h2>
      
        <div class="form">  
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ducimus nesciunt officia eligendi exercitationem maiores nam maxime saepe ad ut.</p>
 
-        <form id="contact" action="" method="post">
+        <form id="contact" action="" method="post" data-aos="fade-down">
           <fieldset>
             <input placeholder="Your name" type="text" tabindex="1" required autofocus>
           </fieldset>
@@ -204,6 +199,12 @@
     </div>
 
    
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 800
+      });
+    </script>
     </body>
 </html>
