@@ -46,22 +46,30 @@ nav {
   height: 50px;
   padding-left: 30px;
   padding-right: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5f4ea;
+  z-index: 2;
+  box-shadow:0 1px 5px #e9e8dc;
+
 }
 
 .logo {
   width: 3.5rem;
-  height: 100%;
+  padding: 5px 0;
+  height: 94%;
 }
 
 .logo img {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  color: #274355;
  
 }
 
@@ -72,6 +80,8 @@ nav {
 
 .nav-links a {
   text-decoration: none;
+  color: #32501d;
+
 }
 
 .header {
@@ -103,11 +113,13 @@ nav {
 
 .header-footer-txt p {
   color: #6BA244;
+  font-size: 1.1rem;
 
 }
 .header-footer-icons {
   display: flex;
   list-style-type: none;
+  justify-content: space-between;
 }
 
 .header-footer-icons li{
@@ -120,7 +132,7 @@ nav {
 }
 
 #portfolio {
-  padding: 20px;
+  padding: 50px;
 }
 
 .portfolio-grid {
@@ -322,7 +334,7 @@ textarea {
   }
   .header-img img {
     width: 100%;
-    height: 70%;
+    height: 75%;
   }
 
   .header-footer {
