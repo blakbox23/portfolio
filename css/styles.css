@@ -98,6 +98,12 @@ nav {
   margin: 20px;
   width: 100%;
   font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.intxt {
+  text-decoration: none;
+  color: #6BA244;
 }
 
 .header-img {
@@ -299,6 +305,7 @@ textarea {
   border: none;
   background: #fff;
   padding: 8px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer-icons {
