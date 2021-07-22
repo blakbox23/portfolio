@@ -100,7 +100,7 @@ nav {
 
 .intxt {
   text-decoration: none;
-  color: #2C4D6E;
+  color: #6BA244;
 }
 
 .header-img {
@@ -114,7 +114,7 @@ nav {
 }
 
 .header-footer-txt p {
-  color: #6BA244;
+  color: #2C4D6E;
   font-size: 1.1rem;
 
 }
@@ -151,7 +151,7 @@ nav {
 }
 
 #pot1{ background:
-  linear-gradient(to bottom, rgba(44,77,110, 0.3), rgba(107,162,68, 0.6)), 
+  linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(107,162,68, 0.6)), 
   url('https://source.unsplash.com/2xaF4TbjXT0');
   background-position: top;
 background-size: cover;
@@ -167,14 +167,15 @@ background-size: cover;
 }
 
 #pot3 {
-  background:linear-gradient(to bottom, rgba(44,77,110, 0.3), rgba(107,162,68, 0.6)), 
+  background:
+  linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(107,162,68, 0.6)), 
   url(/img/chatflx.png);
   background-position: center;
 background-size: cover;
 }
 
 #pot4 {
-  background:linear-gradient(to bottom, rgba(44,77,110, 0.3), rgba(107,162,68, 0.6)), 
+  background: linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(107,162,68, 0.6)), 
   url('https://source.unsplash.com/f-PH16nZHKI');
   background-position: center;
 background-size: cover;
