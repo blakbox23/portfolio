@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  line-height: 1.5rem;
+  line-height: 2.5rem;
 
 }
 
@@ -84,13 +84,10 @@ nav {
 
 }
 
-.header {
-  height: calc(100vh - 70px);
-}
-
 .head-union {
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 50px;
+  height: calc(100vh - 50px)
 }
 
 .header-text {
@@ -98,6 +95,7 @@ nav {
   margin: 20px;
   width: 100%;
   font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .header-img {
@@ -106,9 +104,8 @@ nav {
 
 .header-footer {
   position: absolute;
-  bottom: 10px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+  bottom: 35px;
+  width: 90%;
 }
 
 .header-footer-txt p {
@@ -119,12 +116,11 @@ nav {
 .header-footer-icons {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
 }
 
 .header-footer-icons li{
-  width: 22px;
-  margin-right: 15px;
+  width: 25px;
+  margin: 0 10px;
 }
 
 .header-footer-icons li img {
@@ -132,7 +128,8 @@ nav {
 }
 
 #portfolio {
-  padding: 50px;
+  padding: 1.7rem;
+  padding-top: 2.3rem;
 }
 
 .portfolio-grid {
@@ -282,6 +279,10 @@ input {
   padding: 10px;
 }
 
+textarea {
+  font-family: 'Lato', sans-serif;
+}
+
 #contact-submit {
   width: 94%;
   height: 2.5rem;
@@ -310,9 +311,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
  
-  h1 {
-    line-height: 1.5rem;
-  }
+
   /* .header-text {
     width: 50%;
   } */
@@ -327,6 +326,7 @@ textarea {
     margin: 40px;
     margin-top: 80px;
     width: 50%;
+    position: relative;
   }
   .header-img {
     width: 50%;
@@ -334,13 +334,12 @@ textarea {
   }
   .header-img img {
     width: 100%;
-    height: 75%;
+    height: 100%;
   }
 
   .header-footer {
     display: flex;
-
-    flex-direction: row;
+    bottom: 0px;
   }
 
   .portfolio-grid {
