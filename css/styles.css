@@ -145,14 +145,13 @@ nav {
 }
 
 .portfolio-item {
-  border: 1px solid black;
   height: 27vh;
   position: relative;
   color: #fff;
 }
 
 #pot1{ background:
-  linear-gradient(to bottom, rgba(0,0,0, 0.8), rgba(107,162,68, 0.6)), 
+  linear-gradient(to bottom, rgba(0,0,0, 1), rgba(107,162,68, 0.6)), 
   url('https://source.unsplash.com/2xaF4TbjXT0');
   background-position: top;
 background-size: cover;
