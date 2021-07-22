@@ -96,6 +96,14 @@ nav {
   width: 100%;
   font-size: 1.2rem;
   line-height: 1.8rem;
+<<<<<<< HEAD
+=======
+}
+
+.intxt {
+  text-decoration: none;
+  color: #6BA244;
+>>>>>>> e0257d4714d7c514deb5935a3654ffef236fa26e
 }
 
 .header-img {
@@ -300,6 +308,7 @@ textarea {
   border: none;
   background: #fff;
   padding: 8px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer-icons {
