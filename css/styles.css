@@ -108,7 +108,9 @@ nav {
 .header-footer {
   position: absolute;
   bottom: 35px;
+  left: 20px;
   width: 90%;
+  text-align: center;
 }
 
 .header-footer-txt p {
@@ -292,13 +294,12 @@ textarea {
   padding-left: 0;
 }
 
+.footer-icons li {
+  width: 2rem;
+}
+
 
 @media screen and (min-width: 768px) {
- 
-
-  /* .header-text {
-    width: 50%;
-  } */
 
   .nav-links {
     width: 30%;
