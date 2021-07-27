@@ -145,34 +145,15 @@ nav {
 }
 
 .portfolio-item {
-  height: 27vh;
   position: relative;
-  color: #fff;
 }
 
-#pot1{ background:
-  linear-gradient(to bottom, rgba(0,0,0, 1), rgba(107,162,68, 0.6)), 
-  url('https://source.unsplash.com/2xaF4TbjXT0');
-  background-position: top;
-background-size: cover;
+.portfolio-image img{
+  width: 100%;
+  height: 12.6rem;
 }
 
-#pot2 {
-background:
-linear-gradient(to bottom, rgba(44, 77, 110, 0.3), rgba(107,162,68, 0.6)), 
-url('/img/pete\'s\ kitchen.PNG');
-background-position: center;
-background-size: cover;
 
-}
-
-#pot3 {
-  background:
-  linear-gradient(to bottom, rgba(0,0,0, 0.8), rgba(107,162,68, 0.6)), 
-  url(/img/chatflx.png);
-  background-position: center;
-background-size: cover;
-}
 
 #pot4 {
   background: linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(107,162,68, 0.6)), 
@@ -183,43 +164,41 @@ background-size: cover;
 
 .portfolio-item h3 {
   margin: 0;
-  padding: 5px 0 5px; 
   font-size: 1.4rem;
-  margin-bottom: 10px;
+  color:rgba(88, 46, 88, 0.6);
 }
 
 .proj-tech {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 10px;
+  margin-top: 0.5rem;
 }
 
 .proj-tech p {
-  background-color: rgb(53, 48, 48);
   font-size: 0.87rem;
-  padding: 3px;
   font-family:sans-serif;
   margin: 2px;
+  color:rgba(44,77,110, 0.8);
 }
 
 .proj-btns {
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
+  margin-top: 3rem;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 .proj-btns a {
   padding: 7px 10px;
   text-decoration: none;
   color: #fff;
-  margin-left: 15px;
   font-size: 1rem;
+  border-radius: 1rem;
+
 }
 .live-btn {
   background-color: rgba(107,162,68, 0.8);
-
+  margin-left: 2.7rem;
 }
 
 .code-btn {
@@ -355,8 +334,12 @@ textarea {
   }
 
   .portfolio-item {
-    height: 35vh;
     padding: 10px 0 20px 10px;
+  }
+
+  .portfolio-image img{
+    width: 100%;
+    height: 12.6rem;
   }
 
   #about {
