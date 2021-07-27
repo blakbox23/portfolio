@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 .border {
   border: 1px solid black;
 }
@@ -150,15 +155,6 @@ nav {
 .portfolio-image img{
   width: 100%;
   height: 12.6rem;
-}
-
-
-
-#pot4 {
-  background: linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(107,162,68, 0.6)), 
-  url('https://source.unsplash.com/f-PH16nZHKI');
-  background-position: center;
-background-size: cover;
 }
 
 .portfolio-item h3 {
