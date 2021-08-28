@@ -1,5 +1,5 @@
 # Portfolio
-This is my personal portfolio.
+This is my personal portfolio showcasing some of my best works.
 
 ## Live
 [Live demo](https://blakbox23.github.io/portfolio/)
