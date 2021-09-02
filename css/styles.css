@@ -150,6 +150,7 @@ nav {
 
 .portfolio-item {
   position: relative;
+  box-shadow: 1px 3px 5px #e4e3d9;
 }
 
 .portfolio-image img{
